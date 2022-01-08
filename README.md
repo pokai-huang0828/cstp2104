@@ -1,1 +1,4 @@
-# cstp2104
+# CSTP 2104 - Windows Interactive App Prog
+
+* Instructor: **George** 
+* Student: **PoKai** 
