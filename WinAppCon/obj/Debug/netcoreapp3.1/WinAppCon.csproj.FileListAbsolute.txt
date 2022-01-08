@@ -1,0 +1,14 @@
+D:\VCC\2104\cstp2104\WinAppCon\bin\Debug\netcoreapp3.1\WinAppCon.exe
+D:\VCC\2104\cstp2104\WinAppCon\bin\Debug\netcoreapp3.1\WinAppCon.deps.json
+D:\VCC\2104\cstp2104\WinAppCon\bin\Debug\netcoreapp3.1\WinAppCon.runtimeconfig.json
+D:\VCC\2104\cstp2104\WinAppCon\bin\Debug\netcoreapp3.1\WinAppCon.runtimeconfig.dev.json
+D:\VCC\2104\cstp2104\WinAppCon\bin\Debug\netcoreapp3.1\WinAppCon.dll
+D:\VCC\2104\cstp2104\WinAppCon\bin\Debug\netcoreapp3.1\WinAppCon.pdb
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.GeneratedMSBuildEditorConfig.editorconfig
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.AssemblyInfoInputs.cache
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.AssemblyInfo.cs
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.csproj.CoreCompileInputs.cache
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.dll
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.pdb
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.genruntimeconfig.cache
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.csproj.AssemblyReference.cache
