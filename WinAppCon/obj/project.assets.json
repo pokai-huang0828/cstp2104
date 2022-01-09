@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "WinAppLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/WinAppLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinAppLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WinAppLib/1.0.0": {
+      "type": "project",
+      "path": "../WinAppLib/WinAppLib.csproj",
+      "msbuildProject": "../WinAppLib/WinAppLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "WinAppLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kenny\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VCC\\2104\\cstp2104\\WinAppLib\\WinAppLib.csproj": {
+              "projectPath": "D:\\VCC\\2104\\cstp2104\\WinAppLib\\WinAppLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

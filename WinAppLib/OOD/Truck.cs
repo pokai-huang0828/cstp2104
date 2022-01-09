@@ -6,6 +6,6 @@ namespace WinAppLib.OOD
 {
     public class Truck
     {
-
+        
     }
 }

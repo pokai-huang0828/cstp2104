@@ -12,3 +12,6 @@ D:\VCC\2104\cstp2104\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole
 D:\VCC\2104\cstp2104\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.dll
 D:\VCC\2104\cstp2104\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.pdb
 D:\VCC\2104\cstp2104\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.genruntimeconfig.cache
+D:\VCC\2104\cstp2104\AssignmentConsole\bin\Debug\netcoreapp3.1\Assignment.dll
+D:\VCC\2104\cstp2104\AssignmentConsole\bin\Debug\netcoreapp3.1\Assignment.pdb
+D:\VCC\2104\cstp2104\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.csproj.CopyComplete
