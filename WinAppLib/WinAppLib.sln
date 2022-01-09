@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppLib", "WinAppLib.csproj", "{DC5A6C6D-6264-4F5D-8ED3-6E0812BBC087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinAppLib", "WinAppLib.csproj", "{DC5A6C6D-6264-4F5D-8ED3-6E0812BBC087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppCon", "..\WinAppCon\WinAppCon.csproj", "{294C0A7D-CB14-4B0E-86D4-D2AD6C39CA86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinAppCon", "..\WinAppCon\WinAppCon.csproj", "{294C0A7D-CB14-4B0E-86D4-D2AD6C39CA86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment", "..\Assignments\Assignment.csproj", "{477D7F1F-9D6F-4D1C-BD0C-240F09A98003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment", "..\Assignments\Assignment.csproj", "{477D7F1F-9D6F-4D1C-BD0C-240F09A98003}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentConsole", "..\AssignmentConsole\AssignmentConsole.csproj", "{1C35443F-E15C-409C-906C-5F0C6B6AD64D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignmentConsole", "..\AssignmentConsole\AssignmentConsole.csproj", "{1C35443F-E15C-409C-906C-5F0C6B6AD64D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignments", "Assignments", "{2DD0CECB-353C-4A30-98AE-6F882FB06A31}"
 EndProject
