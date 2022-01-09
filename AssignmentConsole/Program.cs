@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Assignment;
+using Assignment.Entities;
+using Assignment.Enum;
+using Assignment.Enum.Car_Enum;
+using System;
 
 namespace AssignmentConsole
 {
@@ -26,9 +30,7 @@ namespace AssignmentConsole
 
                 choice = int.Parse(Console.ReadLine());
                 return choice;
-            }
-
-
+            }          
 
         }
     }
