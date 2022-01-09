@@ -9,7 +9,7 @@ namespace Assignment.Entities
     public class Car : Vehicles
     {
        
-        public Car(VehicleTypes type, CarBrands brand, CarModels model, EngineType engine, int year, int mileage, decimal price) : base(type, year, mileage, price)
+        public Car(VehicleTypes type, CarBrands brand, CarModels model, EngineType engine, int year, int mileage, decimal price) : base((int)type, year, mileage, price)
         {
             Brand = brand;
             Models = model; 

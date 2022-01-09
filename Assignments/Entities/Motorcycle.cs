@@ -8,7 +8,7 @@ namespace Assignment.Entities
 {
     public class Motorcycle : Vehicles
     {
-        public Motorcycle(VehicleTypes type, MotorBrands brand, MotorModel model, EngineType engine, int year, int mileage, decimal price) : base(type, year, mileage, price)
+        public Motorcycle(VehicleTypes type, MotorBrands brand, MotorModel model, EngineType engine, int year, int mileage, decimal price) : base((int)type, year, mileage, price)
         {
             Brand = brand;
             Models = model;
