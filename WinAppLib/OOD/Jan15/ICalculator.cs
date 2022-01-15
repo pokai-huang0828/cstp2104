@@ -6,10 +6,6 @@ namespace WinAppLib.OOD
 {
     public interface ICalculator
     {
-        int Calculator(int x)
-        {
-            return (x * x * x);
-        }
-
+        int Calculate(int x);
     }
 }

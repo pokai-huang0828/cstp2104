@@ -1,5 +1,6 @@
 ﻿using System;
 using WinAppLib.OOD;
+using WinAppLib.OOD.Jan15;
 
 namespace WinAppCon
 {
@@ -40,20 +41,24 @@ namespace WinAppCon
             Vehicle vt = truck;
             Car car4 = (Car)vt; // Run-time error InvalidCastException
 
+            Console.WriteLine(" ");
+
             // -------------- Jan 15th 2022-------------------
 
             // as operator
             // is operator
 
-            /*var values = new int[] { 2, 4, 5, 8 };
+            var values = new int[] { 2, 4, 5, 8 };
             var result = Program.Calculate(values, new Squarer());
             Program.Display(result);
-            
+
             result = Program.Calculate(values, new Cuber());
             Program.Display(result);
 
             result = Program.Calculate(values, new CustomCalculator());
-            Program.Display(result);*/
+            Program.Display(result);
+
+            Console.WriteLine("\n");
 
             string s = "123";
             var isCapitalized = s.IsCapitalized();
@@ -67,7 +72,7 @@ namespace WinAppCon
             isCapitalized = s.IsCapitalized();
             Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
             
-            s = "";
+            s = " ";
             isCapitalized = s.IsCapitalized();
             Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
             
@@ -80,7 +85,7 @@ namespace WinAppCon
             int[] result = new int[values.Length];
             for(int i = 0; i < values.Length; i++)
             {
-                var r = calculator.Calculator(values[i]);
+                var r = calculator.Calculate(values[i]);
                 result[i] = r;
             }
             return result;
