@@ -39,7 +39,7 @@ namespace WinAppCon
 
             var truck = new Truck();
             Vehicle vt = truck;
-            Car car4 = (Car)vt; // Run-time error InvalidCastException
+            // Car car4 = (Car)vt; // Run-time error InvalidCastException
 
             Console.WriteLine(" ");
 
@@ -75,7 +75,11 @@ namespace WinAppCon
             s = " ";
             isCapitalized = s.IsCapitalized();
             Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
-            
+
+            s = null;
+            isCapitalized = s.IsCapitalized();
+            Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
+
 
         }
 
