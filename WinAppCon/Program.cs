@@ -30,8 +30,8 @@ namespace WinAppCon
                 Model = "Corola",
             };
 
-            Program.Display(car);
-            Program.Display(car2);
+            Program.Display1(car);
+            Program.Display1(car2);
 
             Vehicle v = car; // Upcast
             Car car3 = (Car)v; // Downcast
@@ -40,14 +40,66 @@ namespace WinAppCon
             Vehicle vt = truck;
             Car car4 = (Car)vt; // Run-time error InvalidCastException
 
+            // -------------- Jan 15th 2022-------------------
+
             // as operator
             // is operator
+
+            /*var values = new int[] { 2, 4, 5, 8 };
+            var result = Program.Calculate(values, new Squarer());
+            Program.Display(result);
+            
+            result = Program.Calculate(values, new Cuber());
+            Program.Display(result);
+
+            result = Program.Calculate(values, new CustomCalculator());
+            Program.Display(result);*/
+
+            string s = "123";
+            var isCapitalized = s.IsCapitalized();
+            Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
+
+            s = "Ace";
+            isCapitalized = s.IsCapitalized();
+            Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
+
+            s = "base";
+            isCapitalized = s.IsCapitalized();
+            Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
+            
+            s = "";
+            isCapitalized = s.IsCapitalized();
+            Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
+            
+
         }
 
-        public static void Display(Vehicle vehicle)
+
+        public static int[] Calculate(int[] values, ICalculator calculator)
+        {
+            int[] result = new int[values.Length];
+            for(int i = 0; i < values.Length; i++)
+            {
+                var r = calculator.Calculator(values[i]);
+                result[i] = r;
+            }
+            return result;
+        }
+
+        public static void Display(int[] values)
+        {
+            for(int i = 0; i < values.Length; i++)
+            {
+                Console.WriteLine($"i = {i} {values[i]}");
+            }
+        }
+
+        // --------------------------------------------------------
+
+        public static void Display1(Vehicle vehicle)
         {
             Console.WriteLine(vehicle.Model);
-            Console.WriteLine(vehicle.Make);
+            Console.WriteLine(vehicle.makes);
             Console.WriteLine(vehicle.Year);
         }
 
@@ -56,4 +108,21 @@ namespace WinAppCon
 
         }
     }
+
+    // -------------- Jan 15th 2022 -----------------------
+
+    public static class StringHelper
+    {
+        // Extension method
+        public static bool IsCapitalized(this string s)
+        {
+            if (string.IsNullOrEmpty(s))
+            {
+                return false;
+            }
+            return char.IsUpper(s[0]);
+        }
+    }
+
+    // ---------------------------------------------------
 }

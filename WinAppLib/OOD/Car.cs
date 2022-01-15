@@ -21,5 +21,7 @@ namespace WinAppLib.OOD
         {
             this.Model = model;
         }
+
+        public string Make { get; set; }
     }
 }

@@ -6,7 +6,7 @@ namespace WinAppLib.OOD
 {
     public class Suzuki: Motorcycle
     {
-        public override int GetMaxSpeed()
+       /* public override int GetMaxSpeed()
         {
             if (this.Engine == Engines.Cylinder_4)
             {
@@ -14,6 +14,6 @@ namespace WinAppLib.OOD
             }
 
             return 180;
-        }
+        }*/
     }
 }

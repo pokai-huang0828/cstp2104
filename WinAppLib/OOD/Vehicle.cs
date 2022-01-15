@@ -7,10 +7,13 @@ namespace WinAppLib.OOD
     public class Vehicle
     {
         public string Model;
-        public string Make;
+        public CarMakes makes;
         public int Year;
         public Engines Engine;
     }
 
-
+    /*public virtual int GetMaxSpeed()
+    {
+        return 0;
+    }*/
 }
