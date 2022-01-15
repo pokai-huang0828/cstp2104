@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "WinAppCon/1.0.0": {
+        "dependencies": {
+          "WinAppLib": "1.0.0"
+        },
         "runtime": {
           "WinAppCon.dll": {}
+        }
+      },
+      "WinAppLib/1.0.0": {
+        "runtime": {
+          "WinAppLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WinAppCon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinAppLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

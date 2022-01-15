@@ -4,8 +4,7 @@ using System.Text;
 
 namespace WinAppLib.OOD
 {
-    public class Motorcycle : Vehicle
+    public static class Configuration
     {
-
     }
 }

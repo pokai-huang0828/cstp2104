@@ -12,3 +12,6 @@ D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.dll
 D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.pdb
 D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.genruntimeconfig.cache
 D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.csproj.AssemblyReference.cache
+D:\VCC\2104\cstp2104\WinAppCon\bin\Debug\netcoreapp3.1\WinAppLib.dll
+D:\VCC\2104\cstp2104\WinAppCon\bin\Debug\netcoreapp3.1\WinAppLib.pdb
+D:\VCC\2104\cstp2104\WinAppCon\obj\Debug\netcoreapp3.1\WinAppCon.csproj.CopyComplete

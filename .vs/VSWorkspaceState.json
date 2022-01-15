@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Images",
+    "\\WinAppLib"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\WinAppLib\\WinAppLib.sln",
   "PreviewInSolutionExplorer": false
 }
