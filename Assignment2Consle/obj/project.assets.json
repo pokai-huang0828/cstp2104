@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Assignment2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Assignment2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment2.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Assignment2/1.0.0": {
+      "type": "project",
+      "path": "../Assignment2/Assignment2.csproj",
+      "msbuildProject": "../Assignment2/Assignment2.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Assignment2 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kenny\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VCC\\2104\\cstp2104\\Assignment2\\Assignment2.csproj": {
+              "projectPath": "D:\\VCC\\2104\\cstp2104\\Assignment2\\Assignment2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

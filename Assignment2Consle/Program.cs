@@ -6,7 +6,8 @@ namespace Assignment2Consle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("CSTP2104--Assignment 2\n");
+            Console.WriteLine("Welcome to PoKai Vehicle Store!");
         }
     }
 }
