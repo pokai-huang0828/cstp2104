@@ -9,10 +9,10 @@ namespace Assignment2.Entities
         public VehicleTypes Type { get; set; }
         public int Year { get; set; }
 
-        public Vehicles(int t, int y)
+        public Vehicles(int type, int year)
         {
-            this.Type = (VehicleTypes)t;
-            this.Year = y;
+            this.Type = (VehicleTypes)type;
+            this.Year = year;
         }
     }
 }

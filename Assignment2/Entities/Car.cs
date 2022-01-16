@@ -1,10 +1,15 @@
-﻿using System;
+﻿using Assignment2.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Assignment2
 {
-    class Car
+    public class Car : Vehicles
     {
+        public Car(int type, int year) : base(type, year)
+        {
+
+        }
     }
 }

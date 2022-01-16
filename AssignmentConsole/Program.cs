@@ -79,9 +79,6 @@ namespace AssignmentConsole
                 choice = int.Parse(Console.ReadLine());
                 return choice;
             }
-
-            
-
         }
     }
 }
