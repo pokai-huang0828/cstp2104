@@ -9,10 +9,10 @@ namespace Assignment2Consle
         static void Main(string[] args)
         {
 
-            Vehicles v1 = new Vehicles((int)VehicleTypes.Car, 2021);
+            Vehicles v1 = new Vehicles(1, 2021, 3);
 
             Console.WriteLine("CSTP2104--Assignment 2\n");
-            Console.WriteLine(" ");
+            Console.WriteLine("Welcome to Suzuki vehicles!! ");
 
             int action = chooseAction();
 
@@ -27,7 +27,8 @@ namespace Assignment2Consle
 
                         Console.WriteLine(
                             "\nVehicleType: " + v1.Type +
-                            "\nYear: " + v1.Year
+                            "\nYear: " + v1.Year +
+                            "\nEngineType: " + v1.Engine
                             );
                         break;
                 }
@@ -37,7 +38,7 @@ namespace Assignment2Consle
             static int chooseAction()
             {
                 int choice = 0;
-                Console.WriteLine("Choose an action (0) to quit (1) to veiw all vehicles\n");
+                Console.WriteLine("Choose an action (0) to quit (1) to veiw all vehicle's details\n");
 
                 choice = int.Parse(Console.ReadLine());
                 return choice;
