@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Assignment2.Enum
+﻿namespace Assignment2.Enum
 {
     public enum EngineType
     {

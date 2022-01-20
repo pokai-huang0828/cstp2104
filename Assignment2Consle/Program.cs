@@ -9,7 +9,8 @@ namespace Assignment2Consle
         static void Main(string[] args)
         {
 
-            Vehicles v1 = new Vehicles(1, 2021, 3);
+            Vehicles v1 = new Vehicles(1, 2021, 1, 1, 100.0, false);
+            Car c1 = new Car(1, 0, 2015, 1, 1, 45.2, false);
 
             Console.WriteLine("CSTP2104--Assignment 2\n");
             Console.WriteLine("Welcome to Suzuki vehicles!! ");
@@ -26,9 +27,14 @@ namespace Assignment2Consle
                         Console.WriteLine("Let's veiw all vehicles!!\n");
 
                         Console.WriteLine(
-                            "\nVehicleType: " + v1.Type +
-                            "\nYear: " + v1.Year +
-                            "\nEngineType: " + v1.Engine
+                            "\nVehicleType: " + c1.Type +
+                            "\nModel: " + c1.CarModel +
+                            "\nYear: " + c1.Year +
+                            "\nEngineType: " + c1.Engine +
+                            "\nFuelType: " + c1.Fuel +
+                            "\nCurrentFuel: " + c1.CurrentFuel +
+                            "\nEstimate Distance: " + c1.EstimateDistance() +
+                            "\nRepair Needed: " + c1.IsRepairNeeded
                             );
                         break;
                 }

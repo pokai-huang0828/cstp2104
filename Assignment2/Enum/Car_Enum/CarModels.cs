@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Assignment2.Enum.Car_Enum
+﻿namespace Assignment2.Enum.Car_Enum
 {
     public enum CarModels
     {

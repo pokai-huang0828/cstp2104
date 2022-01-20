@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Assignment2.Enum.Motor_Enum
+﻿namespace Assignment2.Enum.Motor_Enum
 {
-    public enum MotorModel
+    public enum MotorModels
     {
         eReady_Run,
         Gixxer250,
