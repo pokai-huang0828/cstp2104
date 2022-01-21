@@ -1,6 +1,9 @@
 ﻿using Assignment2;
 using Assignment2.Entities;
+using Assignment2.Enum;
+using Assignment2.Enum.Car_Enum;
 using System;
+using System.Collections.Generic;
 
 namespace Assignment2Consle
 {
@@ -8,9 +11,18 @@ namespace Assignment2Consle
     {
         static void Main(string[] args)
         {
+            
 
-            Vehicles v1 = new Vehicles(1, 2021, 1, 1, 100.0, false);
-            Car c1 = new Car(1, 0, 2015, 1, 1, 45.2, false);
+            Store.AddCar(VehicleTypes.Car,
+                     CarModels.SX4,
+                     2021,
+                     EngineType.Cylinder_6,
+                     FuelType.Gasoline,
+                     32.02,
+                     false);
+            Store.AddCar(VehicleTypes.Car, CarModels.Swift, 2020, EngineType.Cylinder_4, FuelType.Gasoline, 25.85, false);
+
+
 
             Console.WriteLine("CSTP2104--Assignment 2\n");
             Console.WriteLine("Welcome to Suzuki vehicles!! ");
@@ -26,16 +38,9 @@ namespace Assignment2Consle
                     case 1:
                         Console.WriteLine("Let's veiw all vehicles!!\n");
 
-                        Console.WriteLine(
-                            "\nVehicleType: " + c1.Type +
-                            "\nModel: " + c1.CarModel +
-                            "\nYear: " + c1.Year +
-                            "\nEngineType: " + c1.Engine +
-                            "\nFuelType: " + c1.Fuel +
-                            "\nCurrentFuel: " + c1.CurrentFuel +
-                            "\nEstimate Distance: " + c1.EstimateDistance() +
-                            "\nRepair Needed: " + c1.IsRepairNeeded
-                            );
+                        Store.ShowAllCars();
+
+                        
                         break;
                 }
                 action = chooseAction();
@@ -49,6 +54,8 @@ namespace Assignment2Consle
                 choice = int.Parse(Console.ReadLine());
                 return choice;
             }
+
+
         }
     }
 }
