@@ -19,7 +19,7 @@ namespace Assignment2Consle
 
             Store.AddMotorcycle(VehicleTypes.Motorcycle, MotorModels.BURGMAN200, 2020, EngineType.Cylinder_2, FuelType.Gasoline, 5.5, false);
             Store.AddMotorcycle(VehicleTypes.Motorcycle, MotorModels.GSX_R1000R, 2021, EngineType.Cylinder_4, FuelType.Gasoline, 9.2, true);
-            Store.AddMotorcycle(VehicleTypes.Motorcycle, MotorModels.eReady_Run, 2021, EngineType.Eletric, FuelType.Eletric, 4, false);
+            Store.AddMotorcycle(VehicleTypes.Motorcycle, MotorModels.Gixxer250, 2021, EngineType.Cylinder_4, FuelType.Gasoline, 8.1, false);
 
             Store.AddTruck(VehicleTypes.Truck, TruckModel.Carry_Truck, 2018, EngineType.Cylinder_8, FuelType.Diesel_Fuel, 53.21, false);
             Store.AddTruck(VehicleTypes.Truck, TruckModel.Carry_Mini, 2015, EngineType.Cylinder_6, FuelType.Diesel_Fuel, 47.3, false);
