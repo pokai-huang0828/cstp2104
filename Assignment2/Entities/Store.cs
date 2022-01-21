@@ -46,21 +46,56 @@ namespace Assignment2.Entities
 
         public static void ShowAllCars()
         {
-            List<Car> ShowCars = GetCars();
+            GetCars();
             foreach(Car car in CarList)
             {
                 Console.WriteLine(
-                            "\nvehicletype: " + car.Type +
-                            "\nmodel: " + car.CarModel +
-                            "\nyear: " + car.Year +
-                            "\nenginetype: " + car.Engine +
-                            "\nfueltype: " + car.Fuel +
-                            "\ncurrentfuel: " + car.CurrentFuel +
-                            "\nestimate distance: " + car.EstimateDistance() +
-                            "\nrepair needed: " + car.IsRepairNeeded
+                            "\nVehicletype: " + car.Type +
+                            "\nModel: " + car.CarModel +
+                            "\nYear: " + car.Year +
+                            "\nEnginetype: " + car.Engine +
+                            "\nFueltype: " + car.Fuel +
+                            "\nCurrentfuel: " + car.CurrentFuel + " liter" +
+                            "\nEstimate distance: " + car.EstimateDistance() + " km" +
+                            "\nRepair needed: " + car.IsRepairNeeded
                             );
             }
         }
-        
+
+        public static void ShowAllMotorcycles()
+        {
+            GetMotorcycles();
+            foreach(Motorcycle motorcycle in MotorcycleList)
+            {
+                Console.WriteLine(
+                            "\nVehicletype: " + motorcycle.Type +
+                            "\nModel: " + motorcycle.MotorModel +
+                            "\nYear: " + motorcycle.Year +
+                            "\nEnginetype: " + motorcycle.Engine +
+                            "\nFueltype: " + motorcycle.Fuel +
+                            "\nCurrentfuel: " + motorcycle.CurrentFuel + " liter" +
+                            "\nEstimate distance: " + motorcycle.EstimateDistance() + " km" +
+                            "\nRepair needed: " + motorcycle.IsRepairNeeded
+                            );
+            }
+        }
+
+        public static void ShowAllTrucks()
+        {
+            GetTrucks();
+            foreach(Truck truck in TruckList)
+            {
+                Console.WriteLine(
+                            "\nVehicletype: " + truck.Type +
+                            "\nModel: " + truck.TruckModel +
+                            "\nYear: " + truck.Year +
+                            "\nEnginetype: " + truck.Engine +
+                            "\nFueltype: " + truck.Fuel +
+                            "\nCurrentfuel: " + truck.CurrentFuel + " liter" +
+                            "\nEstimate distance: " + truck.EstimateDistance() + " km" +
+                            "\nRepair needed: " + truck.IsRepairNeeded
+                            );
+            }
+        }        
     }
 }

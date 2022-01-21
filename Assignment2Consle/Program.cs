@@ -2,6 +2,8 @@
 using Assignment2.Entities;
 using Assignment2.Enum;
 using Assignment2.Enum.Car_Enum;
+using Assignment2.Enum.Motor_Enum;
+using Assignment2.Enum.Truck_Enum;
 using System;
 using System.Collections.Generic;
 
@@ -11,21 +13,21 @@ namespace Assignment2Consle
     {
         static void Main(string[] args)
         {
-            
+            Store.AddCar(VehicleTypes.Car, CarModels.SX4, 2021, EngineType.Cylinder_6, FuelType.Gasoline, 32.02, false);
+            Store.AddCar(VehicleTypes.Car, CarModels.Swift, 2020, EngineType.Cylinder_4, FuelType.Gasoline, 25.85, true);
+            Store.AddCar(VehicleTypes.Car, CarModels.Jimmy, 2022, EngineType.Cylinder_6, FuelType.Diesel_Fuel, 55.85, false);
 
-            Store.AddCar(VehicleTypes.Car,
-                     CarModels.SX4,
-                     2021,
-                     EngineType.Cylinder_6,
-                     FuelType.Gasoline,
-                     32.02,
-                     false);
-            Store.AddCar(VehicleTypes.Car, CarModels.Swift, 2020, EngineType.Cylinder_4, FuelType.Gasoline, 25.85, false);
+            Store.AddMotorcycle(VehicleTypes.Motorcycle, MotorModels.BURGMAN200, 2020, EngineType.Cylinder_2, FuelType.Gasoline, 5.5, false);
+            Store.AddMotorcycle(VehicleTypes.Motorcycle, MotorModels.GSX_R1000R, 2021, EngineType.Cylinder_4, FuelType.Gasoline, 9.2, true);
+            Store.AddMotorcycle(VehicleTypes.Motorcycle, MotorModels.eReady_Run, 2021, EngineType.Eletric, FuelType.Eletric, 4, false);
 
+            Store.AddTruck(VehicleTypes.Truck, TruckModel.Carry_Truck, 2018, EngineType.Cylinder_8, FuelType.Diesel_Fuel, 53.21, false);
+            Store.AddTruck(VehicleTypes.Truck, TruckModel.Carry_Mini, 2015, EngineType.Cylinder_6, FuelType.Diesel_Fuel, 47.3, false);
+            Store.AddTruck(VehicleTypes.Truck, TruckModel.Carry_Kilo, 2018, EngineType.Cylinder_10, FuelType.Diesel_Fuel, 32.4, false);
 
 
             Console.WriteLine("CSTP2104--Assignment 2\n");
-            Console.WriteLine("Welcome to Suzuki vehicles!! ");
+            Console.WriteLine("Welcome to Suzuki Vehicles :) ");
 
             int action = chooseAction();
 
@@ -36,11 +38,21 @@ namespace Assignment2Consle
                 switch (action)
                 {
                     case 1:
-                        Console.WriteLine("Let's veiw all vehicles!!\n");
-
+                        Console.WriteLine("\n======= Car List ======");
                         Store.ShowAllCars();
+                        Console.WriteLine("\n======= End =======");
+                        break;
 
-                        
+                    case 2:
+                        Console.WriteLine("\n======= Motorcycle List ======");
+                        Store.ShowAllMotorcycles();
+                        Console.WriteLine("\n======= End =======");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("\n======= Truck List ======");
+                        Store.ShowAllTrucks();
+                        Console.WriteLine("\n======= End =======");
                         break;
                 }
                 action = chooseAction();
@@ -49,13 +61,15 @@ namespace Assignment2Consle
             static int chooseAction()
             {
                 int choice = 0;
-                Console.WriteLine("Choose an action (0) to quit (1) to veiw all vehicle's details\n");
+                Console.WriteLine(
+                    "\nChoose an action (0) to quit \n" +
+                    "Choose (1) to veiw all Car's details\n" +
+                    "Choose (2) to view all Motorcycle's details\n" +
+                    "Choose (3) to view all Truck's details.\n");
 
                 choice = int.Parse(Console.ReadLine());
                 return choice;
             }
-
-
         }
     }
 }

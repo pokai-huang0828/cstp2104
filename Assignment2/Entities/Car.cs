@@ -15,7 +15,7 @@ namespace Assignment2
 
         public double EstimateDistance()
         {
-            return Math.Round(kmPerLiter * CurrentFuel, 3);
+            return Math.Round(kmPerLiter * CurrentFuel, 2);
         }
     }
 }
