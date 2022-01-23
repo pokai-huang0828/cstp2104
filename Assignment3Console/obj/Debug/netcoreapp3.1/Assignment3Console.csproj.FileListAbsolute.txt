@@ -1,0 +1,13 @@
+D:\VCC\2104\cstp2104\Assignment3Console\bin\Debug\netcoreapp3.1\Assignment3Console.exe
+D:\VCC\2104\cstp2104\Assignment3Console\bin\Debug\netcoreapp3.1\Assignment3Console.deps.json
+D:\VCC\2104\cstp2104\Assignment3Console\bin\Debug\netcoreapp3.1\Assignment3Console.runtimeconfig.json
+D:\VCC\2104\cstp2104\Assignment3Console\bin\Debug\netcoreapp3.1\Assignment3Console.runtimeconfig.dev.json
+D:\VCC\2104\cstp2104\Assignment3Console\bin\Debug\netcoreapp3.1\Assignment3Console.dll
+D:\VCC\2104\cstp2104\Assignment3Console\bin\Debug\netcoreapp3.1\Assignment3Console.pdb
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.AssemblyInfoInputs.cache
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.AssemblyInfo.cs
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.csproj.CoreCompileInputs.cache
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.dll
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.pdb
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.genruntimeconfig.cache
