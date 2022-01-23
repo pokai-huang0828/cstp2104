@@ -1,12 +1,52 @@
 ﻿using System;
 using WinAppLib.OOD;
 using WinAppLib.OOD.Jan15;
+using System.Threading;
+using WinAppLib.OOD.MutiThread_Jan22;
 
 namespace WinAppCon
 {
     class Program
     {
+        // Thread, muti-threading
+        // concurency,
+
         static void Main(string[] args)
+        {
+
+            Week3Ex();
+            Console.WriteLine("\nEnter any key");
+            Console.ReadKey();
+            Console.WriteLine("Terminating application");
+
+        
+        }
+
+        private static void Week3Ex()
+        {
+            var taskRun = new TaskExample();
+            try
+            {
+                var threadRun = new ThreadExample();
+                threadRun.RunAThread();
+
+                taskRun.RunTask();
+                taskRun.RunTask2();
+                taskRun.RunTask3();
+                //taskRun.RunTask4();
+ 
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"Exception thrown: {ex.Message}");
+            }
+
+            taskRun.RunAsParallel();
+            taskRun.RunAsParallel2();
+
+        }
+
+        private static void Week1n2Ex()
         {
             Console.WriteLine("Hello World!");
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -20,7 +60,7 @@ namespace WinAppCon
                 Make = "Mercedes",
                 Year = 2021,
                 Model = "X3",
-       
+
             };
 
             Car car2 = new Car()
@@ -71,7 +111,7 @@ namespace WinAppCon
             s = "base";
             isCapitalized = s.IsCapitalized();
             Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
-            
+
             s = " ";
             isCapitalized = s.IsCapitalized();
             Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
@@ -79,8 +119,6 @@ namespace WinAppCon
             s = null;
             isCapitalized = s.IsCapitalized();
             Console.WriteLine($"{s} IsCapitalized:{isCapitalized}");
-
-
         }
 
 
@@ -134,4 +172,6 @@ namespace WinAppCon
     }
 
     // ---------------------------------------------------
+
+
 }
