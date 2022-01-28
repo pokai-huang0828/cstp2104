@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment2.Enum.Truck_Enum
+namespace Assignment3.Enum.Truck_Enum
 {
     public enum TruckModel
     {

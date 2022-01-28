@@ -1,6 +1,6 @@
-﻿using Assignment2.Entities;
+﻿using Assignment3.Entities;
 
-namespace Assignment2
+namespace Assignment3
 {
     public static class RepairChecker
     {

@@ -1,4 +1,4 @@
-﻿namespace Assignment2.Enum.Motor_Enum
+﻿namespace Assignment3.Enum.Motor_Enum
 {
     public enum MotorModels
     {

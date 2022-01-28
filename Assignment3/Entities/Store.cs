@@ -1,12 +1,12 @@
-﻿using Assignment2.Enum;
-using Assignment2.Enum.Car_Enum;
-using Assignment2.Enum.Motor_Enum;
-using Assignment2.Enum.Truck_Enum;
+﻿using Assignment3.Enum;
+using Assignment3.Enum.Car_Enum;
+using Assignment3.Enum.Motor_Enum;
+using Assignment3.Enum.Truck_Enum;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
-namespace Assignment2.Entities
+namespace Assignment3.Entities
 {
     public class Store
     {
@@ -47,55 +47,43 @@ namespace Assignment2.Entities
         public static void ShowAllCars()
         {
             GetCars();
-            foreach(Car car in CarList)
-            {
-                Console.WriteLine(
-                            "\nVehicletype: " + car.Type +
-                            "\nModel: " + car.CarModel +
-                            "\nYear: " + car.Year +
-                            "\nEnginetype: " + car.Engine +
-                            "\nFueltype: " + car.Fuel +
-                            "\nCurrentfuel: " + car.CurrentFuel + " liter" +
-                            "\nEstimate distance: " + car.EstimateDistance() + " km" +
-                            "\nRepair needed: " + car.IsRepairNeeded
-                            );
-            }
+            CarList.AsParallel().ForAll(car => Console.WriteLine(
+                $"\n1. Vehicletype:{ car.Type } " +
+                $"\n2. Model:{ car.CarModel } " +
+                $"\n3. Year:{ car.Year } " +
+                $"\n4. Enginetype:{ car.Engine } " +
+                $"\n5. Currentfuel:{ car.Fuel } " +
+                $"\n6. Model:{ car.CurrentFuel } litre" +
+                $"\n7. Estimate distance:{ car.EstimateDistance() } km" +
+                $"\n8. Require { car.FuelNeedForDistanceCalculator(450) } litre's fuel for travelling 450km."));
         }
 
         public static void ShowAllMotorcycles()
         {
             GetMotorcycles();
-            foreach(Motorcycle motorcycle in MotorcycleList)
-            {
-                Console.WriteLine(
-                            "\nVehicletype: " + motorcycle.Type +
-                            "\nModel: " + motorcycle.MotorModel +
-                            "\nYear: " + motorcycle.Year +
-                            "\nEnginetype: " + motorcycle.Engine +
-                            "\nFueltype: " + motorcycle.Fuel +
-                            "\nCurrentfuel: " + motorcycle.CurrentFuel + " liter" +
-                            "\nEstimate distance: " + motorcycle.EstimateDistance() + " km" +
-                            "\nRepair needed: " + motorcycle.IsRepairNeeded
-                            );
-            }
+            MotorcycleList.AsParallel().ForAll(motorcycle => Console.WriteLine(
+                $"\n1. Vehicletype:{ motorcycle.Type } " +
+                $"\n2. Model:{ motorcycle.MotorModel } " +
+                $"\n3. Year:{ motorcycle.Year } " +
+                $"\n4. Enginetype:{ motorcycle.Engine } " +
+                $"\n5. Currentfuel:{ motorcycle.Fuel } " +
+                $"\n6. Model:{ motorcycle.CurrentFuel } litre" +
+                $"\n7. Estimate distance:{ motorcycle.EstimateDistance() } km" +
+                $"\n8. Require { motorcycle.FuelNeedForDistanceCalculator(450) } litre's fuel for travelling 450km."));
         }
 
         public static void ShowAllTrucks()
         {
             GetTrucks();
-            foreach(Truck truck in TruckList)
-            {
-                Console.WriteLine(
-                            "\nVehicletype: " + truck.Type +
-                            "\nModel: " + truck.TruckModel +
-                            "\nYear: " + truck.Year +
-                            "\nEnginetype: " + truck.Engine +
-                            "\nFueltype: " + truck.Fuel +
-                            "\nCurrentfuel: " + truck.CurrentFuel + " liter" +
-                            "\nEstimate distance: " + truck.EstimateDistance() + " km" +
-                            "\nRepair needed: " + truck.IsRepairNeeded
-                            );
-            }
+            TruckList.AsParallel().ForAll(truck => Console.WriteLine(
+                $"\n1. Vehicletype:{ truck.Type } " +
+                $"\n2. Model:{ truck.TruckModel } " +
+                $"\n3. Year:{ truck.Year } " +
+                $"\n4. Enginetype:{ truck.Engine } " +
+                $"\n5. Currentfuel:{ truck.Fuel } " +
+                $"\n6. Model:{ truck.CurrentFuel } litre" +
+                $"\n7. Estimate distance:{ truck.EstimateDistance() } km" +
+                $"\n8. Require { truck.FuelNeedForDistanceCalculator(450) } litre's fuel for travelling 450km."));
         }        
     }
 }

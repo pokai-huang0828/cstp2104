@@ -1,8 +1,8 @@
-﻿using Assignment2.Entities;
-using Assignment2.Enum.Car_Enum;
+﻿using Assignment3.Entities;
+using Assignment3.Enum.Car_Enum;
 using System;
 
-namespace Assignment2
+namespace Assignment3
 {
     public class Car : Vehicles, FCalculator
     {
@@ -16,6 +16,11 @@ namespace Assignment2
         public double EstimateDistance()
         {
             return Math.Round(kmPerLiter * CurrentFuel, 2);
+        }
+
+        public double FuelNeedForDistanceCalculator(double distance)
+        {
+            return Math.Round(distance / kmPerLiter, 2);
         }
     }
 }

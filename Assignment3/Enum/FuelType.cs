@@ -1,4 +1,4 @@
-﻿namespace Assignment2.Enum
+﻿namespace Assignment3.Enum
 {
     public enum FuelType
     {

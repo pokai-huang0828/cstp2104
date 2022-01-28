@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+using Assignment3;
+using System;
+using System.Collections.Generic;
 
 namespace Assignment3Console
 {
@@ -6,7 +9,8 @@ namespace Assignment3Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Result.AddVehicles();
+            Result.ShowResult();
         }
     }
 }

@@ -11,3 +11,7 @@ D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Conso
 D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.dll
 D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.pdb
 D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.genruntimeconfig.cache
+D:\VCC\2104\cstp2104\Assignment3Console\bin\Debug\netcoreapp3.1\Assignment3.dll
+D:\VCC\2104\cstp2104\Assignment3Console\bin\Debug\netcoreapp3.1\Assignment3.pdb
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.csproj.AssemblyReference.cache
+D:\VCC\2104\cstp2104\Assignment3Console\obj\Debug\netcoreapp3.1\Assignment3Console.csproj.CopyComplete

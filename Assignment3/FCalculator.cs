@@ -1,4 +1,4 @@
-﻿namespace Assignment2
+﻿namespace Assignment3
 {
     public interface FCalculator
     {

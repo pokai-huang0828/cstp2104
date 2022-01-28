@@ -1,6 +1,6 @@
-﻿using Assignment2.Enum;
+﻿using Assignment3.Enum;
 
-namespace Assignment2.Entities
+namespace Assignment3.Entities
 {
     public class Vehicles
     {
@@ -11,6 +11,7 @@ namespace Assignment2.Entities
         public FuelType Fuel { get; set; }
         public double CurrentFuel { get; private set; }
         public double kmPerLiter;
+        public double FuelNeedForDistance;
 
         public Vehicles(int Type, int Year, int Engine, int Fuel, double CurrentFuel, bool IsRepairNeeded)
         {
@@ -53,7 +54,6 @@ namespace Assignment2.Entities
             {
                 kmPerLiter = 10.7;
             }
-
         }
     }
 }
