@@ -3,6 +3,7 @@ using WinAppLib.OOD;
 using WinAppLib.OOD.Jan15;
 using System.Threading;
 using WinAppLib.OOD.MutiThread_Jan22;
+using WinAppLib.DBMS;
 
 namespace WinAppCon
 {
@@ -14,12 +15,20 @@ namespace WinAppCon
         static void Main(string[] args)
         {
 
-            Week3Ex();
+            Week4Ex();
+
+            //Week3Ex();
             Console.WriteLine("\nEnter any key");
             Console.ReadKey();
             Console.WriteLine("Terminating application");
 
         
+        }
+
+        private static void Week4Ex()
+        {
+            var adoNetEx = new AdoNetExample();
+            adoNetEx.CreateAndAddRows();
         }
 
         private static void Week3Ex()
