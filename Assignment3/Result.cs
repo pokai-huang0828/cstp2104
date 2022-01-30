@@ -25,11 +25,6 @@ namespace Assignment3
             Store.AddTruck(VehicleTypes.Truck, TruckModel.Carry_Kilo, 2018, EngineType.Cylinder_10, FuelType.Diesel_Fuel, 32.4, false);
         }
 
-        public static void FuelCheck()
-        {
-            
-        }
-
         public static void ShowResult() 
         { 
 

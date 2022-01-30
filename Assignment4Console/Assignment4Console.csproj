@@ -11,4 +11,8 @@
     <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Assignment4\Assignment4.csproj" />
+  </ItemGroup>
+
 </Project>

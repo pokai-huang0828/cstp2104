@@ -746,6 +746,21 @@
             "rid": "win"
           }
         }
+      },
+      "Assignment4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "4.0.1",
+          "Microsoft.Data.Sqlite": "6.0.1",
+          "Microsoft.Data.Sqlite.Core": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Assignment4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment4.dll": {}
+        }
       }
     }
   },
@@ -2585,10 +2600,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Assignment4/1.0.0": {
+      "type": "project",
+      "path": "../Assignment4/Assignment4.csproj",
+      "msbuildProject": "../Assignment4/Assignment4.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Assignment4 >= 1.0.0",
       "Microsoft.Data.SqlClient >= 4.0.1",
       "Microsoft.Data.Sqlite >= 6.0.1",
       "Microsoft.Data.Sqlite.Core >= 6.0.1"
@@ -2625,7 +2646,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VCC\\2104\\cstp2104\\Assignment4\\Assignment4.csproj": {
+              "projectPath": "D:\\VCC\\2104\\cstp2104\\Assignment4\\Assignment4.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

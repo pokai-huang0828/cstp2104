@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment4;
+using System;
 
 namespace Assignment4Console
 {
@@ -6,7 +7,13 @@ namespace Assignment4Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Assignment4();
+        }
+
+        private static void Assignment4()
+        {
+            var adoNet = new AdoNet();
+            adoNet.CreateTables();
         }
     }
 }
