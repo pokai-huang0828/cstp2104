@@ -38,19 +38,56 @@ namespace WinAppLib.DBMS
 
 
 
-            var queryCommand = connection.CreateCommand();
-            queryCommand.CommandText = "SELECT * FROM students";
-            var reader = queryCommand.ExecuteReader();
-            while (reader.Read())
-            {
-                Console.WriteLine("========= Students ==========");
-                Console.WriteLine("Student Name:    " + reader[0]);
-                Console.WriteLine("Student Email:   " + reader[1]);
-                Console.WriteLine("Student Address: " + reader[2]);
-                Console.WriteLine("Student ID:      " + reader[3]);
-            }
+            //var queryCommand = connection.CreateCommand();
+            //queryCommand.CommandText = "SELECT * FROM students";
+            //var reader = queryCommand.ExecuteReader();
+            //while (reader.Read())
+            //{
+            //    Console.WriteLine("========= Students ==========");
+            //    Console.WriteLine("Student Name:    " + reader[0]);
+            //    Console.WriteLine("Student Email:   " + reader[1]);
+            //    Console.WriteLine("Student Address: " + reader[2]);
+            //    Console.WriteLine("Student ID:      " + reader[3]);
+            //}
 
             connection.Close();
+        }
+
+        public List<string> GetStudents()
+        {
+            var studentRecords = new List<string>();
+            var stringBuilder = new StringBuilder();
+            try
+            {
+                using (var connection = this.OpenConnection())
+                {
+                    connection.Open();
+                    var commandText = "SELECT * FROM students";
+                    using (var cmd = new SqliteCommand(commandText, connection))
+                    {
+                        cmd.CommandText = commandText;
+                        var reader = cmd.ExecuteReader();
+                        while (reader.Read())
+                        {
+                            stringBuilder.AppendLine("========= Students ==========");
+                            stringBuilder.AppendLine("Name:    " + reader[0].ToString());
+                            stringBuilder.AppendLine("Email:   " + reader[1].ToString());
+                            stringBuilder.AppendLine("Address: " + reader[2].ToString());
+                            stringBuilder.AppendLine("ID:      " + reader[3].ToString());
+
+                            studentRecords.Add(stringBuilder.ToString());
+                            stringBuilder.Clear();
+                        }
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Getting data fail...");
+                Console.WriteLine(ex);
+            }
+
+            return studentRecords;
         }
     }
 }

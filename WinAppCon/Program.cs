@@ -29,6 +29,7 @@ namespace WinAppCon
         {
             var adoNetEx = new AdoNetExample();
             adoNetEx.CreateAndAddRows();
+            adoNetEx.GetStudents();
         }
 
         private static void Week3Ex()
