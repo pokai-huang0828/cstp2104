@@ -8,3 +8,13 @@ D:\VCC\2104\cstp2104\Assignments\obj\Debug\netcoreapp3.1\Assignment.AssemblyInfo
 D:\VCC\2104\cstp2104\Assignments\obj\Debug\netcoreapp3.1\Assignment.csproj.CoreCompileInputs.cache
 D:\VCC\2104\cstp2104\Assignments\obj\Debug\netcoreapp3.1\Assignment.dll
 D:\VCC\2104\cstp2104\Assignments\obj\Debug\netcoreapp3.1\Assignment.pdb
+D:\VCC\2104\cstp2104\Class Code\Assignments\bin\Debug\netcoreapp3.1\Assignment.deps.json
+D:\VCC\2104\cstp2104\Class Code\Assignments\bin\Debug\netcoreapp3.1\Assignment.dll
+D:\VCC\2104\cstp2104\Class Code\Assignments\bin\Debug\netcoreapp3.1\Assignment.pdb
+D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.csproj.AssemblyReference.cache
+D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.AssemblyInfoInputs.cache
+D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.AssemblyInfo.cs
+D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.csproj.CoreCompileInputs.cache
+D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.dll
+D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.pdb

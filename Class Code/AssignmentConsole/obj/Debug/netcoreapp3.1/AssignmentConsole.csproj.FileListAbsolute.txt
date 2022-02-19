@@ -15,3 +15,20 @@ D:\VCC\2104\cstp2104\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole
 D:\VCC\2104\cstp2104\AssignmentConsole\bin\Debug\netcoreapp3.1\Assignment.dll
 D:\VCC\2104\cstp2104\AssignmentConsole\bin\Debug\netcoreapp3.1\Assignment.pdb
 D:\VCC\2104\cstp2104\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.csproj.CopyComplete
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\bin\Debug\netcoreapp3.1\AssignmentConsole.exe
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\bin\Debug\netcoreapp3.1\AssignmentConsole.deps.json
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\bin\Debug\netcoreapp3.1\AssignmentConsole.runtimeconfig.json
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\bin\Debug\netcoreapp3.1\AssignmentConsole.runtimeconfig.dev.json
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\bin\Debug\netcoreapp3.1\AssignmentConsole.dll
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\bin\Debug\netcoreapp3.1\AssignmentConsole.pdb
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\bin\Debug\netcoreapp3.1\Assignment.dll
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\bin\Debug\netcoreapp3.1\Assignment.pdb
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.csproj.AssemblyReference.cache
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.AssemblyInfoInputs.cache
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.AssemblyInfo.cs
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.csproj.CoreCompileInputs.cache
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.csproj.CopyComplete
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.dll
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.pdb
+D:\VCC\2104\cstp2104\Class Code\AssignmentConsole\obj\Debug\netcoreapp3.1\AssignmentConsole.genruntimeconfig.cache
