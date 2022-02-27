@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FkisMlYwrPg3P5kUod2YD5RyT4JUd0rGnbHY+ZbwBdp4dfSm3WxWq/p1wuQ4YJZp2zV0GK+GcUZraO2aIiF2Og==",
+  "dgSpecHash": "Ic3v/3FwjE1weEsNdtnYblEFTKoLg+JTeSYhkGrRR3qSxeb7rx1Q4nPiYNirx0WpHjq/P52BJWFCQv3mdcvmQA==",
   "success": true,
   "projectFilePath": "D:\\VCC\\2104\\cstp2104\\Class Code\\WinAppLib\\WinAppLib.csproj",
   "expectedPackageFiles": [
@@ -8,10 +8,10 @@
     "C:\\Users\\kenny\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
     "C:\\Users\\kenny\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\kenny\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\kenny\\.nuget\\packages\\microsoft.data.sqlclient\\4.0.1\\microsoft.data.sqlclient.4.0.1.nupkg.sha512",
+    "C:\\Users\\kenny\\.nuget\\packages\\microsoft.data.sqlclient\\4.1.0\\microsoft.data.sqlclient.4.1.0.nupkg.sha512",
     "C:\\Users\\kenny\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\4.0.0\\microsoft.data.sqlclient.sni.runtime.4.0.0.nupkg.sha512",
-    "C:\\Users\\kenny\\.nuget\\packages\\microsoft.data.sqlite\\6.0.1\\microsoft.data.sqlite.6.0.1.nupkg.sha512",
-    "C:\\Users\\kenny\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.1\\microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
+    "C:\\Users\\kenny\\.nuget\\packages\\microsoft.data.sqlite\\6.0.2\\microsoft.data.sqlite.6.0.2.nupkg.sha512",
+    "C:\\Users\\kenny\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
     "C:\\Users\\kenny\\.nuget\\packages\\microsoft.identity.client\\4.22.0\\microsoft.identity.client.4.22.0.nupkg.sha512",
     "C:\\Users\\kenny\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.16.5\\microsoft.identity.client.extensions.msal.2.16.5.nupkg.sha512",
     "C:\\Users\\kenny\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",

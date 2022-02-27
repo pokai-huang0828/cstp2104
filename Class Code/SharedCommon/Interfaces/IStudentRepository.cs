@@ -7,6 +7,14 @@ namespace SharedCommon.Interfaces
 {
     public interface IStudentRepository
     {
-        List<Student> GetStudents();
+        List<Student> Get(Filter filter);
+
+        void Add(Student student);
+
+        void Update(Student student);
+
+        Student Get(string studentID);
+
+        void Delete(string studentID);
     }
 }

@@ -1,0 +1,9 @@
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\bin\Debug\netcoreapp3.1\SharedCommon.deps.json
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\bin\Debug\netcoreapp3.1\SharedCommon.dll
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\bin\Debug\netcoreapp3.1\SharedCommon.pdb
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.GeneratedMSBuildEditorConfig.editorconfig
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.AssemblyInfoInputs.cache
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.AssemblyInfo.cs
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.csproj.CoreCompileInputs.cache
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.dll
+D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.pdb

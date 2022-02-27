@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v3.1": {
       "WinAppLib/1.0.0": {
         "dependencies": {
-          "Microsoft.Data.SqlClient": "4.0.1",
-          "Microsoft.Data.Sqlite": "6.0.1",
-          "Microsoft.Data.Sqlite.Core": "6.0.1"
+          "Microsoft.Data.SqlClient": "4.1.0",
+          "Microsoft.Data.Sqlite": "6.0.2",
+          "Microsoft.Data.Sqlite.Core": "6.0.2"
         },
         "runtime": {
           "WinAppLib.dll": {}
@@ -59,7 +59,7 @@
         }
       },
       "Microsoft.CSharp/4.5.0": {},
-      "Microsoft.Data.SqlClient/4.0.1": {
+      "Microsoft.Data.SqlClient/4.1.0": {
         "dependencies": {
           "Azure.Identity": "1.3.0",
           "Microsoft.Data.SqlClient.SNI.runtime": "4.0.0",
@@ -80,22 +80,22 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
           }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
             "rid": "unix",
             "assetType": "runtime",
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
           },
           "runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
           }
         }
       },
@@ -123,20 +123,20 @@
           }
         }
       },
-      "Microsoft.Data.Sqlite/6.0.1": {
+      "Microsoft.Data.Sqlite/6.0.2": {
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.1",
+          "Microsoft.Data.Sqlite.Core": "6.0.2",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.0.6"
         }
       },
-      "Microsoft.Data.Sqlite.Core/6.0.1": {
+      "Microsoft.Data.Sqlite.Core/6.0.2": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.6"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.56712"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.6404"
           }
         }
       },
@@ -701,12 +701,12 @@
       "path": "microsoft.csharp/4.5.0",
       "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
     },
-    "Microsoft.Data.SqlClient/4.0.1": {
+    "Microsoft.Data.SqlClient/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-f6jCM9JZ/qZXWA+TcTffGN8LISOF05wK5C6fAXWvN6tn0r+cUfVxfroY+QM4seMnRy1KjKuy47m+XZN25ZlSCg==",
-      "path": "microsoft.data.sqlclient/4.0.1",
-      "hashPath": "microsoft.data.sqlclient.4.0.1.nupkg.sha512"
+      "sha512": "sha512-o/sIRlcKEcI9vg5z9USqJ/VCxtUUBYEOXYr4TrkMNu+gGBh0KfUi06Jqpe+xZgeoxcqYruV9dLOn046uFA4vHQ==",
+      "path": "microsoft.data.sqlclient/4.1.0",
+      "hashPath": "microsoft.data.sqlclient.4.1.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient.SNI.runtime/4.0.0": {
       "type": "package",
@@ -715,19 +715,19 @@
       "path": "microsoft.data.sqlclient.sni.runtime/4.0.0",
       "hashPath": "microsoft.data.sqlclient.sni.runtime.4.0.0.nupkg.sha512"
     },
-    "Microsoft.Data.Sqlite/6.0.1": {
+    "Microsoft.Data.Sqlite/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PuH8SyfRgS19criO7/DnsMQZx0L915rl4mcMPtvIvCwQ1+V3HahBZl8VyGRK/N4tV399hkmNe7F+aCCdT2Ek8g==",
-      "path": "microsoft.data.sqlite/6.0.1",
-      "hashPath": "microsoft.data.sqlite.6.0.1.nupkg.sha512"
+      "sha512": "sha512-smHmMptnsFRRxQFLFUIzXhxbdcLLZNri+LHahaGvwwdrOf0gG6hammLUx5l6wjr9il9dRh12RyM3Q3/QY/wVtA==",
+      "path": "microsoft.data.sqlite/6.0.2",
+      "hashPath": "microsoft.data.sqlite.6.0.2.nupkg.sha512"
     },
-    "Microsoft.Data.Sqlite.Core/6.0.1": {
+    "Microsoft.Data.Sqlite.Core/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Z8MIjWmzxUjcc2HKTKFHfo7jqqVeVftkigrojGY4zEN8OwjLgJNb5/BqW3J2FiIiCrPBDGNkiVlOERazGfLizg==",
-      "path": "microsoft.data.sqlite.core/6.0.1",
-      "hashPath": "microsoft.data.sqlite.core.6.0.1.nupkg.sha512"
+      "sha512": "sha512-4q17iqpGkYdj5lyeCKpln6oT5/qBbZ3J0Tyzi8tIk1vkM8XtuG3Zx+YT5eYuXa/TrieM731nxl/lrDvtdSK6Ww==",
+      "path": "microsoft.data.sqlite.core/6.0.2",
+      "hashPath": "microsoft.data.sqlite.core.6.0.2.nupkg.sha512"
     },
     "Microsoft.Identity.Client/4.22.0": {
       "type": "package",

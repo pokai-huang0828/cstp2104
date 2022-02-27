@@ -4,6 +4,7 @@ using WinAppLib.OOD.Jan15;
 using System.Threading;
 using WinAppLib.OOD.MutiThread_Jan22;
 using WinAppLib.DBMS;
+using DataAccessLayer;
 
 namespace WinAppCon
 {
@@ -15,14 +16,27 @@ namespace WinAppCon
         static void Main(string[] args)
         {
 
-            Week4Ex();
-
+            Week5Ex();
+            //Week4Ex();
             //Week3Ex();
             Console.WriteLine("\nEnter any key");
             Console.ReadKey();
             Console.WriteLine("Terminating application");
 
         
+        }
+
+        private static void Week5Ex()
+        {
+            var dbConfig = new DBConfig();
+            var courseRepository = new CourseRepository(dbConfig);
+
+            var courses = courseRepository.GetCourses();
+
+            foreach (var course in courses)
+            {
+                Console.WriteLine("{0} {1}", course.CourseID, course.CourseName);
+            }
         }
 
         private static void Week4Ex()

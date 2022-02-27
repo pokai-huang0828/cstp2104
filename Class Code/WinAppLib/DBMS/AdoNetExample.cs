@@ -7,6 +7,9 @@ namespace WinAppLib.DBMS
 {
     public class AdoNetExample
     {
+        // Connection strings for MySQL
+        // "Server"
+
         public SqliteConnection OpenConnection()
         {
             SqliteConnection connection = new SqliteConnection();

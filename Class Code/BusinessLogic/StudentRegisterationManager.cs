@@ -8,18 +8,8 @@ namespace BusinessLogic
 {
      public class StudentRegisterationManager
     {
-        private readonly IStudentRepository studentRepository;
-
-        public StudentRegisterationManager(IStudentRepository studentRepository)
+        class StudentRegistrationManager
         {
-            this.studentRepository = studentRepository;
-        }
-
-        public List<Student> GetRegisteredStudents()
-        {
-            var students = this.studentRepository.GetStudents();
-
-            return students;
         }
     }
 }
