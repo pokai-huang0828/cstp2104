@@ -6,10 +6,19 @@ using SharedCommon.Interfaces;
 
 namespace BusinessLogic
 {
-     public class StudentRegisterationManager
+    public class StudentRegistrationManager
     {
-        class StudentRegistrationManager
+        private readonly IStudentRepository studentRepository;
+        public StudentRegistrationManager(IStudentRepository studentRepository)
         {
+            this.studentRepository = studentRepository;
+        }
+
+        public List<Student> GetRegisteredStudents(Filter filter)
+        {
+            var students = this.studentRepository.GetStudents(filter);
+
+            return students;
         }
     }
 }

@@ -19,7 +19,7 @@ namespace DataAccessLayer
             var courses = new List<Course>();
             using (var connection = new SqlConnection(dbConfig.GetConnectionString()))
             {
-                string sqlQuery = "SELECT CourseID, CourseName FROM COURSE";
+                string sqlQuery = "SELECT CourseID, CourseName, CourseDescription, HasPrerequisite FROM COURSE";
                 using (var command = new SqlCommand(sqlQuery, connection))
                 {
                     connection.Open();
@@ -27,7 +27,7 @@ namespace DataAccessLayer
                     {
                         while (reader.Read())
                         {
-                            var course = new Course() { CourseID = reader.GetString(0), CourseName = reader.GetString(1) };
+                            var course = new Course() { CourseID = reader.GetString(0), CourseName = reader.GetString(1), CourseDescription = reader.GetString(2), HasPrerequisite = reader.GetBoolean(3) };
                             courses.Add(course);
                         }
                     }
