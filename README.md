@@ -9,4 +9,6 @@
 
 ### [Assignment 3 - PLINQ](https://github.com/pokai-huang0828/cstp2104/wiki/Assignment-3)
 
-### [Assignment 4 - ADO.NET Database Programming](https://github.com/pokai-huang0828/cstp2104/wiki/Assignment-4)
+### [Assignment 4 - ADO.NET Database Programming - 1](https://github.com/pokai-huang0828/cstp2104/wiki/Assignment-4)
+
+### [Assignment 5 - ADO.NET Database Programming - 2](https://github.com/pokai-huang0828/cstp2104/wiki/Assignment-5)
