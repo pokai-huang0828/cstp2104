@@ -35,7 +35,11 @@ namespace WinAppCon
 
             foreach (var course in courses)
             {
-                Console.WriteLine("{0} {1}", course.CourseID, course.CourseName);
+                Console.WriteLine(
+                    "CourseID: {0} \n" +
+                    "Course Name: {1} \n" +
+                    "Description: {2} \n" +
+                    "Has Prerequisite: {3} \n", course.CourseID, course.CourseName, course.CourseDescription, course.HasPrerequisite);
             }
         }
 
