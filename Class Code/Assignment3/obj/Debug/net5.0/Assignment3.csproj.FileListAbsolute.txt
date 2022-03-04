@@ -1,0 +1,11 @@
+D:\VCC\2104\cstp2104\Class Code\Assignment3\bin\Debug\net5.0\Assignment3.deps.json
+D:\VCC\2104\cstp2104\Class Code\Assignment3\bin\Debug\net5.0\Assignment3.dll
+D:\VCC\2104\cstp2104\Class Code\Assignment3\bin\Debug\net5.0\ref\Assignment3.dll
+D:\VCC\2104\cstp2104\Class Code\Assignment3\bin\Debug\net5.0\Assignment3.pdb
+D:\VCC\2104\cstp2104\Class Code\Assignment3\obj\Debug\net5.0\Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+D:\VCC\2104\cstp2104\Class Code\Assignment3\obj\Debug\net5.0\Assignment3.AssemblyInfoInputs.cache
+D:\VCC\2104\cstp2104\Class Code\Assignment3\obj\Debug\net5.0\Assignment3.AssemblyInfo.cs
+D:\VCC\2104\cstp2104\Class Code\Assignment3\obj\Debug\net5.0\Assignment3.csproj.CoreCompileInputs.cache
+D:\VCC\2104\cstp2104\Class Code\Assignment3\obj\Debug\net5.0\Assignment3.dll
+D:\VCC\2104\cstp2104\Class Code\Assignment3\obj\Debug\net5.0\ref\Assignment3.dll
+D:\VCC\2104\cstp2104\Class Code\Assignment3\obj\Debug\net5.0\Assignment3.pdb

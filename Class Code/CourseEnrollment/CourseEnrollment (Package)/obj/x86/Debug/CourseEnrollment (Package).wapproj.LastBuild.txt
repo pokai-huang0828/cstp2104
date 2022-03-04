@@ -1,0 +1,24 @@
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\Images\SplashScreen.scale-200.png
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\Images\LockScreenLogo.scale-200.png
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\Images\Square150x150Logo.scale-200.png
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\Images\Square44x44Logo.scale-200.png
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\Images\StoreLogo.png
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\Images\Wide310x150Logo.scale-200.png
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\resources.pri
+C:\Users\kenny\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll
+C:\Users\kenny\.nuget\packages\microsoft.projectreunion.winui\0.8.6\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\kenny\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\kenny\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\WinRT.Runtime.dll
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.deps.json
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.runtimeconfig.dev.json
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe
+C:\Users\kenny\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.pdb
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.runtimeconfig.json
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.dll
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.pdb

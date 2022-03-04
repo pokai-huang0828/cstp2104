@@ -1,0 +1,13 @@
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\bin\Release\netcoreapp3.1\BusinessLogic.deps.json
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\bin\Release\netcoreapp3.1\BusinessLogic.dll
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\bin\Release\netcoreapp3.1\BusinessLogic.pdb
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\bin\Release\netcoreapp3.1\SharedCommon.dll
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\bin\Release\netcoreapp3.1\SharedCommon.pdb
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.csproj.AssemblyReference.cache
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.AssemblyInfoInputs.cache
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.AssemblyInfo.cs
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.csproj.CopyComplete
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.dll
+D:\VCC\2104\cstp2104\Class Code\BusinessLogic\obj\Release\netcoreapp3.1\BusinessLogic.pdb

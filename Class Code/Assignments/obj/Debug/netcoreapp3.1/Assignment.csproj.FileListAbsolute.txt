@@ -17,4 +17,3 @@ D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.A
 D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.csproj.CoreCompileInputs.cache
 D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.dll
 D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.pdb
-D:\VCC\2104\cstp2104\Class Code\Assignments\obj\Debug\netcoreapp3.1\Assignment.csproj.AssemblyReference.cache

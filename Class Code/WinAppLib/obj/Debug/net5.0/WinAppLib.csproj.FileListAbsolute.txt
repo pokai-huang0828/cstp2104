@@ -1,0 +1,11 @@
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\bin\Debug\net5.0\WinAppLib.deps.json
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\bin\Debug\net5.0\WinAppLib.dll
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\bin\Debug\net5.0\ref\WinAppLib.dll
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\bin\Debug\net5.0\WinAppLib.pdb
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\obj\Debug\net5.0\WinAppLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\obj\Debug\net5.0\WinAppLib.AssemblyInfoInputs.cache
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\obj\Debug\net5.0\WinAppLib.AssemblyInfo.cs
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\obj\Debug\net5.0\WinAppLib.csproj.CoreCompileInputs.cache
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\obj\Debug\net5.0\WinAppLib.dll
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\obj\Debug\net5.0\ref\WinAppLib.dll
+D:\VCC\2104\cstp2104\Class Code\WinAppLib\obj\Debug\net5.0\WinAppLib.pdb

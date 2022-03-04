@@ -7,4 +7,3 @@ D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommo
 D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.csproj.CoreCompileInputs.cache
 D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.dll
 D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.pdb
-D:\VCC\2104\cstp2104\Class Code\SharedCommon\obj\Debug\netcoreapp3.1\SharedCommon.csproj.AssemblyReference.cache
