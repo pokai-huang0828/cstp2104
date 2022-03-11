@@ -12,7 +12,6 @@ D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\Microsoft.WinUI.dll
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\Microsoft.Windows.SDK.NET.dll
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\WinRT.Runtime.dll
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.csproj.AssemblyReference.cache
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\App.g.i.cs
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\App.g.cs
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.g.i.cs
