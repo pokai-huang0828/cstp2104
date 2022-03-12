@@ -598,43 +598,43 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.22, 10.0.19041.22]"
+            "version": "[10.0.19041.23, 10.0.19041.23]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           }
         ],
         "frameworkReferences": {
@@ -645,7 +645,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

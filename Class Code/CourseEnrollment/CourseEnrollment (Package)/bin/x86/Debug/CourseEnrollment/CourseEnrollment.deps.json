@@ -11,21 +11,21 @@
           "Microsoft.ProjectReunion": "0.8.6",
           "Microsoft.ProjectReunion.Foundation": "0.8.6",
           "Microsoft.ProjectReunion.WinUI": "0.8.6",
-          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.22"
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.23"
         },
         "runtime": {
           "CourseEnrollment.dll": {}
         }
       },
-      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.22": {
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.23": {
         "runtime": {
           "Microsoft.Windows.SDK.NET.dll": {
-            "assemblyVersion": "10.0.19041.22",
-            "fileVersion": "10.0.19041.22"
+            "assemblyVersion": "10.0.19041.23",
+            "fileVersion": "10.0.19041.23"
           },
           "WinRT.Runtime.dll": {
-            "assemblyVersion": "1.4.0.0",
-            "fileVersion": "1.4.0.37231"
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.38015"
           }
         }
       },
@@ -63,7 +63,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.22": {
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.23": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""

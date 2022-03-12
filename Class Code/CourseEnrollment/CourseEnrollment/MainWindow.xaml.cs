@@ -26,6 +26,7 @@ namespace CourseEnrollment
         public MainWindow()
         {
             this.InitializeComponent();
+            Title = "Course Enrollment V1";
         }
 
         //private void myButton_Click(object sender, RoutedEventArgs e)

@@ -70,10 +70,10 @@
     <AppxPackagedFile Include="C:\Users\kenny\.nuget\packages\microsoft.projectreunion.winui\0.8.6\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll">
       <PackagePath>CourseEnrollment\Microsoft.WinUI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kenny\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\Microsoft.Windows.SDK.NET.dll">
+    <AppxPackagedFile Include="C:\Users\kenny\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.23\lib\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>CourseEnrollment\Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kenny\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\WinRT.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\kenny\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.23\lib\WinRT.Runtime.dll">
       <PackagePath>CourseEnrollment\WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.deps.json">

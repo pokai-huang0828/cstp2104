@@ -1,24 +1,14 @@
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\App.xbf
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\MainWindow.xbf
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\Microsoft.ApplicationModel.Resources.Projection.dll
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\Microsoft.WinUI.dll
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\Microsoft.Windows.SDK.NET.dll
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\WinRT.Runtime.dll
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.deps.json
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.runtimeconfig.dev.json
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\App.xbf
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\MainWindow.xbf
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.exe
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\Microsoft.ApplicationModel.Resources.Projection.pdb
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.runtimeconfig.json
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.dll
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.pdb
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\resources.pri
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\AppxManifest.xml
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment (Package).build.appxrecipe
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\CourseEnrollment (Package).wapproj.AssemblyReference.cache
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\CourseEnrollment (Package).wapproj.CoreCompileInputs.cache
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\CourseEnrollment.pri.xml
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\priconfig.xml
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\priconfig.xml.intermediate
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\unfiltered.layout.resfiles
@@ -36,3 +26,13 @@ D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\ProjectArchitectures.txt
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\CourseEnrollment (Package).wapproj.LastBuild.txt
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\App.xbf
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\MainWindow.xbf
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.deps.json
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.runtimeconfig.dev.json
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\App.xbf
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\MainWindow.xbf
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.runtimeconfig.json
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.dll
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\bin\x86\Debug\CourseEnrollment\CourseEnrollment.pdb
+D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment (Package)\obj\x86\Debug\CourseEnrollment.pri.xml
