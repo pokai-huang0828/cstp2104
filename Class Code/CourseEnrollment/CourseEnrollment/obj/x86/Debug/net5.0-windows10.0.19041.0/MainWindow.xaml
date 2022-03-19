@@ -9,7 +9,7 @@
 
 
     <Grid>
-        <SplitView x:Name="splitView" PaneBackground="{ThemeResource SystemControlBackgroundChromeMediumLowBrush}"
+        <SplitView x:ConnectionId='2' x:Name="splitView" PaneBackground="{ThemeResource SystemControlBackgroundChromeMediumLowBrush}"
            IsPaneOpen="True" OpenPaneLength="256" CompactPaneLength="48" DisplayMode="Inline">
             <SplitView.Pane>
                 <Grid >
@@ -18,7 +18,7 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Text="PANE CONTENT" x:Name="PaneHeader" Margin="12,12,0,0" Style="{StaticResource BaseTextBlockStyle}"/>
+                    <TextBlock x:ConnectionId='3' Text="PANE CONTENT" x:Name="PaneHeader" Margin="12,12,0,0" Style="{StaticResource BaseTextBlockStyle}"/>
                     
                 </Grid>
             </SplitView.Pane>
@@ -34,3 +34,4 @@
     </Grid>
 
 </Window>
+

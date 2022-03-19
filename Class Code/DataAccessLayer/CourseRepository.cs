@@ -41,5 +41,10 @@ namespace DataAccessLayer
         {
             throw new NotImplementedException();
         }
+
+        public List<Course> GetCoursesCanTakeForStudent(string studentID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

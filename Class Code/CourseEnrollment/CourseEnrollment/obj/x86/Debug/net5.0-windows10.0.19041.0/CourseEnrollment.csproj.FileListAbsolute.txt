@@ -46,4 +46,3 @@ D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\qualifiers.txt
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\qualifiers.txt.intermediate
 D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\MultipleQualifiersPerDimensionFound.txt
-D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.csproj.AssemblyReference.cache

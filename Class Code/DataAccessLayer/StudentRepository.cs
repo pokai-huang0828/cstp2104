@@ -28,7 +28,7 @@ namespace DataAccessLayer
                     {
                         while (reader.Read())
                         {
-                            var student = new Student() { StudentID = reader.GetString(0), Name = reader.GetString(1), ProgramID = reader.GetString(2) };
+                            var student = new Student() { StudentID = reader.GetString(0), StudentFullName = reader.GetString(1), ProgramID = reader.GetString(2) };
                             students.Add(student);
                         }
                     }
@@ -51,7 +51,7 @@ namespace DataAccessLayer
                     {
                         reader.Read();
                         {
-                            var student = new Student() { StudentID = reader.GetString(0), Name = reader.GetString(1), ProgramID = reader.GetString(2) };
+                            var student = new Student() { StudentID = reader.GetString(0), StudentFullName = reader.GetString(1), ProgramID = reader.GetString(2) };
                             return student;
                         }
                     }
@@ -63,7 +63,7 @@ namespace DataAccessLayer
         {
             using (var connection = new SqlConnection(dbConfig.GetConnectionString()))
             {
-                string sqlQuery = ($"INSERT INTO STUDENT VALUES ({student.StudentID}, {student.Name}, {student.ProgramID}");
+                string sqlQuery = ($"INSERT INTO STUDENT VALUES ({student.StudentID}, {student.StudentFullName}, {student.ProgramID}");
                 using (var command = new SqlCommand(sqlQuery))
                 {
                     command.Connection = connection;
@@ -91,7 +91,7 @@ namespace DataAccessLayer
         {
             using (var connection = new SqlConnection(dbConfig.GetConnectionString()))
             {
-                string sqlQuery = ($"UPDATE STUDENT SET Name = '{student.Name}', ProgramID = '{student.ProgramID}' WHERE ID = '{student.StudentID}'");
+                string sqlQuery = ($"UPDATE STUDENT SET Name = '{student.StudentFullName}', ProgramID = '{student.ProgramID}' WHERE ID = '{student.StudentID}'");
                 using (var command = new SqlCommand(sqlQuery))
                 {
                     command.Connection = connection;

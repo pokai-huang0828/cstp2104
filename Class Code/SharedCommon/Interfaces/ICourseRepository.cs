@@ -9,5 +9,6 @@ namespace SharedCommon.Interfaces
     {
         List<Course> GetCourses();
         List<Course> GetCourses(string CourseIDFilter);
+        List<Course> GetCoursesCanTakeForStudent(string studentID);
     }
 }
