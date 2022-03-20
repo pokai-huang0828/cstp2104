@@ -18,8 +18,19 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Text="PANE CONTENT" x:Name="PaneHeader" Margin="12,12,0,0" Style="{StaticResource BaseTextBlockStyle}"/>
                     
+                    <StackPanel Grid.Row="0">
+                        <TextBlock Text="Student" x:Name="PaneHeader" Margin="12,12,0,0" FontSize="24" Style="{StaticResource BaseTextBlockStyle}"/>
+                        <TextBox x:Name="studentFilter" Margin="10, 12, 12, 0"  PlaceholderText="Search By Name or ID"/>
+                    </StackPanel>
+                    <ListView x:Name="studentList" Grid.Row="1" HorizontalAlignment="Stretch" Margin="12, 15, 0, 0" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible">
+                        <ListViewItem>PoKai Huang</ListViewItem>
+                        <ListViewItem>asd</ListViewItem>
+                        <ListViewItem>asd</ListViewItem>
+                        <ListViewItem>asd</ListViewItem>
+                        <ListViewItem>asd</ListViewItem>
+                        <ListViewItem>asd</ListViewItem>
+                    </ListView>
                 </Grid>
             </SplitView.Pane>
 
@@ -28,7 +39,11 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <TextBlock Text="SPLITVIEW CONTENT" Margin="12,12,0,0" Style="{StaticResource BaseTextBlockStyle}"/>
+                <StackPanel Grid.Row="0">
+                    <TextBlock Text="Semester Course Availability for Students" Margin="12,12,0,0" FontSize="24" Style="{StaticResource BaseTextBlockStyle}"/>
+                    <StackPanel 
+                </StackPanel>
+                
             </Grid>
         </SplitView>
     </Grid>

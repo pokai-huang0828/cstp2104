@@ -114,11 +114,11 @@
           }
         }
       },
-      "Microsoft.Data.Sqlite/6.0.2": {
+      "Microsoft.Data.Sqlite/7.0.0-preview.2.22153.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.2",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.0.6"
+          "Microsoft.Data.Sqlite.Core": "7.0.0-preview.2.22153.1",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.0.8-pre20220111224339"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -127,10 +127,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.Data.Sqlite.Core/6.0.2": {
+      "Microsoft.Data.Sqlite.Core/7.0.0-preview.2.22153.1": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.6"
+          "SQLitePCLRaw.core": "2.0.8-pre20220111224339"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
@@ -277,12 +277,12 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
+      "SQLitePCLRaw.bundle_e_sqlite3/2.0.8-pre20220111224339": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.6",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.6",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.6"
+          "SQLitePCLRaw.core": "2.0.8-pre20220111224339",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.8-pre20220111224339",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.8-pre20220111224339"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -291,7 +291,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.0.6": {
+      "SQLitePCLRaw.core/2.0.8-pre20220111224339": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -303,7 +303,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.6": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.8-pre20220111224339": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -374,10 +374,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.6": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.8-pre20220111224339": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.6"
+          "SQLitePCLRaw.core": "2.0.8-pre20220111224339"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -992,23 +992,23 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
-    "Microsoft.Data.Sqlite/6.0.2": {
-      "sha512": "smHmMptnsFRRxQFLFUIzXhxbdcLLZNri+LHahaGvwwdrOf0gG6hammLUx5l6wjr9il9dRh12RyM3Q3/QY/wVtA==",
+    "Microsoft.Data.Sqlite/7.0.0-preview.2.22153.1": {
+      "sha512": "WN+WqhUrTRnCU2qkncqvBCYcIPpURFGhsMQNjuOMgRoMVW4l11BFF1bcEWRzVktHFmn0IwT4hLaer3vYNIfi7w==",
       "type": "package",
-      "path": "microsoft.data.sqlite/6.0.2",
+      "path": "microsoft.data.sqlite/7.0.0-preview.2.22153.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/_._",
-        "microsoft.data.sqlite.6.0.2.nupkg.sha512",
+        "microsoft.data.sqlite.7.0.0-preview.2.22153.1.nupkg.sha512",
         "microsoft.data.sqlite.nuspec"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/6.0.2": {
-      "sha512": "4q17iqpGkYdj5lyeCKpln6oT5/qBbZ3J0Tyzi8tIk1vkM8XtuG3Zx+YT5eYuXa/TrieM731nxl/lrDvtdSK6Ww==",
+    "Microsoft.Data.Sqlite.Core/7.0.0-preview.2.22153.1": {
+      "sha512": "zwDV/B+UqTT3J5L1Ji8CbBPA1enzSP1iOA62G6sHCrJaYg9pgd5DV31/aZM6gjyicr3MJFztcsIDCtco4FQJHw==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/6.0.2",
+      "path": "microsoft.data.sqlite.core/7.0.0-preview.2.22153.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1017,7 +1017,7 @@
         "lib/net6.0/Microsoft.Data.Sqlite.xml",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
+        "microsoft.data.sqlite.core.7.0.0-preview.2.22153.1.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -1276,41 +1276,42 @@
         "version.txt"
       ]
     },
-    "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
-      "sha512": "zssYqiaucyGArZfg74rJuzK0ewgZiidsRVrZTmP7JLNvK806gXg6PGA46XzoJGpNPPA5uRcumwvVp6YTYxtQ5w==",
+    "SQLitePCLRaw.bundle_e_sqlite3/2.0.8-pre20220111224339": {
+      "sha512": "W/LWv7/eXcRn6ovNhIb0xN7fpXZIvFglRzL1Y/N142QD5yq6EQW5CmDCNeaenOlzaSzpqvwILJvMX2VRPp5OsQ==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_e_sqlite3/2.0.6",
+      "path": "sqlitepclraw.bundle_e_sqlite3/2.0.8-pre20220111224339",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
         "lib/Xamarin.tvOS10/SQLitePCLRaw.batteries_v2.dll",
         "lib/net461/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net461/SQLitePCLRaw.nativelibrary.dll",
         "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+        "sqlitepclraw.bundle_e_sqlite3.2.0.8-pre20220111224339.nupkg.sha512",
         "sqlitepclraw.bundle_e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/2.0.6": {
-      "sha512": "Vh8n0dTvwXkCGur2WqQTITvk4BUO8i8h9ucSx3wwuaej3s2S6ZC0R7vqCTf9TfS/I4QkXO6g3W2YQIRFkOcijA==",
+    "SQLitePCLRaw.core/2.0.8-pre20220111224339": {
+      "sha512": "75WH5k/NdDM7+CvdSyRBAp5uHaQbTT9QyHaFNOkZmJimmuymQZh3FYcTaNQbQH7kX1QYm3sD2o9a/QfPWnTaUw==",
       "type": "package",
-      "path": "sqlitepclraw.core/2.0.6",
+      "path": "sqlitepclraw.core/2.0.8-pre20220111224339",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.2.0.6.nupkg.sha512",
+        "sqlitepclraw.core.2.0.8-pre20220111224339.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3/2.0.6": {
-      "sha512": "xlstskMKalKQl0H2uLNe0viBM6fvAGLWqKZUQ3twX5y1tSOZKe0+EbXopQKYdbjJytNGI6y5WSKjpI+kVr2Ckg==",
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.8-pre20220111224339": {
+      "sha512": "g9IeLBoeIIOoGzwtYL9Q1UjTh42t3eDZHEksTkWmSc6Wl8VjMnXITxEwNeslkpc6CCGAjkvCgArGBkVYeTqQsA==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.0.6",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.8-pre20220111224339",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/net461/SQLitePCLRaw.lib.e_sqlite3.targets",
+        "buildTransitive/net461/SQLitePCLRaw.lib.e_sqlite3.targets",
         "lib/net461/_._",
         "lib/netstandard2.0/_._",
         "runtimes/alpine-x64/native/libe_sqlite3.so",
@@ -1328,25 +1329,30 @@
         "runtimes/win-arm64/native/e_sqlite3.dll",
         "runtimes/win-x64/native/e_sqlite3.dll",
         "runtimes/win-x86/native/e_sqlite3.dll",
+        "runtimes/win10-arm/nativeassets/net6.0-windows10/e_sqlite3.dll",
         "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-arm64/nativeassets/net6.0-windows10/e_sqlite3.dll",
         "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/net6.0-windows10/e_sqlite3.dll",
         "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/net6.0-windows10/e_sqlite3.dll",
         "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.2.0.8-pre20220111224339.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3/2.0.6": {
-      "sha512": "peXLJbhU+0clVBIPirihM1NoTBqw8ouBpcUsVMlcZ4k6fcL2hwgkctVB2Nt5VsbnOJcPspQL5xQK7QvLpxkMgg==",
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.8-pre20220111224339": {
+      "sha512": "o+i3QHAvEd/n3ISffXtSO7biZZ02L+DopqMV7jbHFceL2y7shGMkUO9bzaovJaK1s+6+1sYfN44u0P3x37oJMA==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3/2.0.6",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.8-pre20220111224339",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/net6.0-windows10/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.2.0.8-pre20220111224339.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
@@ -2644,8 +2650,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DataAccessLayer >= 1.0.0",
-      "Microsoft.Data.Sqlite >= 6.0.2",
-      "Microsoft.Data.Sqlite.Core >= 6.0.2",
+      "Microsoft.Data.Sqlite >= 7.0.0-preview.2.22153.1",
+      "Microsoft.Data.Sqlite.Core >= 7.0.0-preview.2.22153.1",
       "WinAppLib >= 1.0.0"
     ]
   },
@@ -2656,9 +2662,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VCC\\2104\\cstp2104\\Class Code\\WinAppCon\\WinAppCon.csproj",
-      "projectName": "WinAppCon",
-      "projectPath": "D:\\VCC\\2104\\cstp2104\\Class Code\\WinAppCon\\WinAppCon.csproj",
+      "projectUniqueName": "D:\\VCC\\2104\\cstp2104\\Class Code\\WinAppCon\\ConsoleTests.csproj",
+      "projectName": "ConsoleTests",
+      "projectPath": "D:\\VCC\\2104\\cstp2104\\Class Code\\WinAppCon\\ConsoleTests.csproj",
       "packagesPath": "C:\\Users\\kenny\\.nuget\\packages\\",
       "outputPath": "D:\\VCC\\2104\\cstp2104\\Class Code\\WinAppCon\\obj\\",
       "projectStyle": "PackageReference",
@@ -2702,11 +2708,11 @@
         "dependencies": {
           "Microsoft.Data.Sqlite": {
             "target": "Package",
-            "version": "[6.0.2, )"
+            "version": "[7.0.0-preview.2.22153.1, )"
           },
           "Microsoft.Data.Sqlite.Core": {
             "target": "Package",
-            "version": "[6.0.2, )"
+            "version": "[7.0.0-preview.2.22153.1, )"
           }
         },
         "imports": [
