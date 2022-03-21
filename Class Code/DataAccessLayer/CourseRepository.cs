@@ -117,12 +117,80 @@ namespace DataAccessLayer
             return unpassCourses;
         }
 
-        public List<Course> GetCourses(string CourseIDFilter)
+        public List<Course> NonPrerequisiteCoursesForStudent(string studentID)
         {
-            throw new NotImplementedException();
+            var nonPrerequisiteCourses = new List<Course>();
+            using (var connection = new SqlConnection(dbConfig.GetConnectionString()))
+            {
+                string query =
+                    $"SELECT StudentCourse.CourseID, " +
+                    $"Course.CourseName, " +
+                    $"Course.CourseDescription, " +
+                    $"Course.Credits FROM StudentCourse StudentCourse " +
+                    $"INNER JOIN Course Course ON Course.CourseID = StudentCourse.CourseID " +
+                    $"WHERE(StudentID = '{studentID}' AND isCompleted IS NULL AND Course.HasPrerequisite = 'False')";
+
+                using (var command = new SqlCommand(query))
+                {
+                    command.Connection = connection;
+                    connection.Open();
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var nonPrerequisite = new Course()
+                            {
+                                CourseID = reader.GetString(0),
+                                CourseName = reader.GetString(1),
+                                CourseDescription = reader.GetString(2),
+                                Credits = reader.GetInt32(3),
+                            };
+                            nonPrerequisiteCourses.Add(nonPrerequisite);
+                        }
+                    }
+                }
+            }
+            return nonPrerequisiteCourses;
         }
 
-        public List<Course> GetCoursesCanTakeForStudent(string studentID)
+        public List<CoursePrerequisite> PrerequisiteCoursesForStudent(string studentID)
+        {
+            var prerequisiteCourses = new List<CoursePrerequisite>();
+            using (var connection = new SqlConnection(dbConfig.GetConnectionString()))
+            {
+                string query =
+                    $"SELECT StudentCourse.CourseID, " +
+                    $"CoursePrerequisite.PrerequisiteID, " +
+                    $"CoursePrerequisite.Description FROM StudentCourse StudentCourse " +
+                    $"INNER JOIN Course Course ON Course.CourseID = StudentCourse.CourseID " +
+                    $"LEFT JOIN CoursePrerequisite CoursePrerequisite ON Course.CourseID = CoursePrerequisite.CourseID " +
+                    $"WHERE(StudentID = '{studentID}' AND(StudentCourse.isCompleted IS NULL OR StudentCourse.isCompleted = 'False')" +
+                    $" AND(Course.HasPrerequisite = 'True' OR Course.firstTermRequired = 'True'))";
+
+                using (var command = new SqlCommand(query))
+                {
+                    command.Connection = connection;
+                    connection.Open();
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var prerequisite = new CoursePrerequisite()
+                            {
+                                CourseID = reader.GetString(0),
+                                PrerequisiteID = reader.GetString(1),
+                                Description = reader.GetString(2)
+                            };
+                            
+                            prerequisiteCourses.Add(prerequisite);
+                        }
+                    }
+                }
+            }
+            return prerequisiteCourses;
+        }
+
+        public List<Course> GetCourses(string CourseIDFilter)
         {
             throw new NotImplementedException();
         }

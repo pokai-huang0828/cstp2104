@@ -41,7 +41,7 @@
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="0">
                     <TextBlock Text="Semester Course Availability for Students" Margin="12,12,0,0" FontSize="24" Style="{StaticResource BaseTextBlockStyle}"/>
-                    <StackPanel 
+                    
                 </StackPanel>
                 
             </Grid>

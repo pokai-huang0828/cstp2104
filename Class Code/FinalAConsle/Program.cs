@@ -12,7 +12,8 @@ namespace FinalAConsle
 
         static void Main(string[] args)
         {
-            GetAllStudent();
+            PrerequisiteCoursesForStudent("000435811");
+            //GetAllStudent();
             //GetAllCoursesInfo();
             //GetStudentUnCompletedCourses("000429977");
         }
@@ -77,6 +78,52 @@ namespace FinalAConsle
                     "Is Required: {3} \n" +
                     "Credits: {4} \n"
                     , unpassCourse.CourseID, unpassCourse.CourseName, unpassCourse.HasPrerequisite, unpassCourse.isRequired, unpassCourse.Credits);
+            }
+        }
+
+        public static void NonPrerequisiteCoursesForStudent(string studentID)
+        {
+            var courses = courseRepository.NonPrerequisiteCoursesForStudent(studentID);
+
+            foreach (var nonPrerequisiteCourses in courses)
+            {
+                Console.WriteLine(
+                    "CourseID: {0} \n" +
+                    "Course Name: {1} \n" +
+                    "CourseDescription: {2} \n" +
+                    "Credits: {3} \n", 
+                    nonPrerequisiteCourses.CourseID, 
+                    nonPrerequisiteCourses.CourseName, 
+                    nonPrerequisiteCourses.CourseDescription, 
+                    nonPrerequisiteCourses.Credits);
+                /*
+                var nonPrerequisite = new Course()
+                {
+                    CourseID = reader.GetString(0),
+                    CourseName = reader.GetString(1),
+                    CourseDescription = reader.GetString(2),
+                    Credits = reader.GetInt32(3),
+                };
+                */
+            }
+        }
+
+
+        public static void PrerequisiteCoursesForStudent(string studentID)
+        {
+            var courses = courseRepository.PrerequisiteCoursesForStudent(studentID);
+
+            foreach (var prerequisiteCourses in courses)
+            {
+
+                Console.WriteLine(
+                    "CourseID: {0} \n" +
+                    "PrerequisiteID: {1} \n" +
+                    "Description: {2} \n",
+                    prerequisiteCourses.CourseID,
+                    prerequisiteCourses.PrerequisiteID,
+                    prerequisiteCourses.Description);
+               
             }
         }
 
