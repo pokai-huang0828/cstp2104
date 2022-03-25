@@ -12,7 +12,8 @@ namespace FinalAConsle
 
         static void Main(string[] args)
         {
-            PrerequisiteCoursesForStudent("000435811");
+            PrerequisiteCoursesForStudent("000437894");
+            //NonPrerequisiteCoursesForStudent("000435811");
             //GetAllStudent();
             //GetAllCoursesInfo();
             //GetStudentUnCompletedCourses("000429977");
