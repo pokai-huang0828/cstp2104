@@ -24,12 +24,22 @@
                         <TextBox x:Name="studentFilter" Margin="10, 12, 12, 0"  PlaceholderText="Search By Name or ID"/>
                     </StackPanel>
                     <ListView x:Name="studentList" Grid.Row="1" HorizontalAlignment="Stretch" Margin="12, 15, 0, 0" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible">
-                        <ListViewItem>PoKai Huang</ListViewItem>
-                        <ListViewItem>asd</ListViewItem>
-                        <ListViewItem>asd</ListViewItem>
-                        <ListViewItem>asd</ListViewItem>
-                        <ListViewItem>asd</ListViewItem>
-                        <ListViewItem>asd</ListViewItem>
+                        <DataTemplate >
+                            <StackPanel Orientation="Horizontal" >
+                                <TextBlock Name="StudentID"
+                                    Text="{Binding StudentID }"
+                                    Width="50" />
+                                <TextBlock Name="ItemName"
+                                    Text="{x:Bind  }"
+                                    Width="300" />
+                                <TextBlock Text="{x:Bind QuantityPerUnit}"
+                                   Width="200" />
+                                <TextBlock Text="{x:Bind UnitPriceString}"
+                                   Width="80" />
+                                <TextBlock Text="{x:Bind UnitsInStockString}"
+                                   Width="80" />
+                            </StackPanel>
+                        </DataTemplate>
                     </ListView>
                 </Grid>
             </SplitView.Pane>

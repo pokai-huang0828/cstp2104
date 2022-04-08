@@ -16,32 +16,41 @@ namespace DataAccessLayer
 
         public List<Student> GetAllStudents()
         {
+            string sqlQuery = $"SELECT * FROM STUDENT";
             var students = new List<Student>();
-            using (var connection = new SqlConnection(dbConfig.GetConnectionString()))
+
+            try
             {
-                string sqlQuery = $"SELECT * FROM STUDENT";
-                using (var command = new SqlCommand(sqlQuery))
+                using (var connection = new SqlConnection(dbConfig.GetConnectionString()))
                 {
-                    command.Connection = connection;
-                    connection.Open();
-                    using (var reader = command.ExecuteReader())
+
+                    using (var command = new SqlCommand(sqlQuery))
                     {
-                        while (reader.Read())
+                        command.Connection = connection;
+                        connection.Open();
+                        using (var reader = command.ExecuteReader())
                         {
-                            var student = new Student()
+                            while (reader.Read())
                             {
-                                StudentID = reader.GetString(0),
-                                StudentFullName = reader.GetString(1),
-                                ProgramID = reader.GetString(2),
-                                RegistrantYearMonth = reader.GetString(3)
-                            };
-                            students.Add(student);
+                                var student = new Student()
+                                {
+                                    StudentID = reader.GetString(0),
+                                    StudentFullName = reader.GetString(1),
+                                    ProgramID = reader.GetString(2),
+                                    RegistrantYearMonth = reader.GetString(3)
+                                };
+                                students.Add(student);
+                            }
                         }
                     }
                 }
+                return students;
             }
-
-            return students;
+            catch (Exception ErrorSQL)
+            {
+                Console.WriteLine("Exception: " + ErrorSQL.Message);
+            }
+            return null;          
         }
 
         public List<Student> GetStudents(Filter filter)

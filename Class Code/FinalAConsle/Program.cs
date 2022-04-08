@@ -12,8 +12,8 @@ namespace FinalAConsle
 
         static void Main(string[] args)
         {
-            PrerequisiteCoursesForStudent("000437894");
-            //NonPrerequisiteCoursesForStudent("000435811");
+            //PrerequisiteCoursesForStudent("000437894");
+            NonPrerequisiteCoursesForStudent("000435811");
             //GetAllStudent();
             //GetAllCoursesInfo();
             //GetStudentUnCompletedCourses("000429977");
@@ -30,7 +30,11 @@ namespace FinalAConsle
                     "StudentID: {1} \n" +
                     "Student Name: {2} \n" +
                     "Registrant Time (YYYY-MM): {3} \n"
-                    , student.ProgramID, student.StudentID, student.StudentFullName, student.RegistrantYearMonth);
+                    , student.ProgramID, 
+                    student.StudentID, 
+                    student.StudentFullName, 
+                    student.RegistrantYearMonth
+                    );
             }
         }
 
@@ -48,7 +52,14 @@ namespace FinalAConsle
                     "Has Prerequisite: {4} \n" +
                     "Required: {5} \n" +
                     "Credits: {6} \n"
-                    , course.CourseID, course.CourseName, course.CourseDescription, course.ProgramID, course.HasPrerequisite, course.isRequired, course.Credits);
+                    , course.CourseID, 
+                    course.CourseName, 
+                    course.CourseDescription, 
+                    course.ProgramID, 
+                    course.HasPrerequisite, 
+                    course.isRequired, 
+                    course.Credits
+                    );
             }
         }
 
@@ -62,7 +73,10 @@ namespace FinalAConsle
                     "CourseID: {0} \n" +
                     "Grade: {1} \n" +
                     "PassTerm: {2} \n"
-                    , studentcourses.CourseID, studentcourses.Grade, studentcourses.PassTerm);
+                    , studentcourses.CourseID, 
+                    studentcourses.Grade, 
+                    studentcourses.PassTerm
+                    );
             }
         }
 
@@ -78,7 +92,12 @@ namespace FinalAConsle
                     "Has Prerequisite: {2} \n" +
                     "Is Required: {3} \n" +
                     "Credits: {4} \n"
-                    , unpassCourse.CourseID, unpassCourse.CourseName, unpassCourse.HasPrerequisite, unpassCourse.isRequired, unpassCourse.Credits);
+                    , unpassCourse.CourseID, 
+                    unpassCourse.CourseName, 
+                    unpassCourse.HasPrerequisite, 
+                    unpassCourse.isRequired, 
+                    unpassCourse.Credits
+                    );
             }
         }
 
@@ -96,7 +115,8 @@ namespace FinalAConsle
                     nonPrerequisiteCourses.CourseID, 
                     nonPrerequisiteCourses.CourseName, 
                     nonPrerequisiteCourses.CourseDescription, 
-                    nonPrerequisiteCourses.Credits);
+                    nonPrerequisiteCourses.Credits
+                    );
                 /*
                 var nonPrerequisite = new Course()
                 {
@@ -123,7 +143,8 @@ namespace FinalAConsle
                     "Description: {2} \n",
                     prerequisiteCourses.CourseID,
                     prerequisiteCourses.PrerequisiteID,
-                    prerequisiteCourses.Description);
+                    prerequisiteCourses.Description
+                    );
                
             }
         }
