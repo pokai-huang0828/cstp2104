@@ -10,11 +10,11 @@ namespace FinalAConsle
 
         static void Main(string[] args)
         {
-            //PrerequisiteCoursesForStudent("000437894");
+            //AllTest.PrerequisiteCoursesForStudent("000437894");
             AllTest.NonPrerequisiteCoursesForStudent("000435811");
-            //GetAllStudent();
-            //GetAllCoursesInfo();
-            //GetStudentUnCompletedCourses("000429977");
+            //AllTest.GetAllStudent();
+            //AllTest.GetAllCoursesInfo();
+            //AllTest.GetStudentUnCompletedCourses("000429977");
         }
 
        

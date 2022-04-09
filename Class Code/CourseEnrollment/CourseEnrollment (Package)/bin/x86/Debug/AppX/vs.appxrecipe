@@ -30,17 +30,17 @@
     <AppXManifest Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-19T16:33:40.983</Modified>
+      <Modified>2022-04-09T01:51:05.711</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-03-19T16:28:59.372</Modified>
+      <Modified>2022-04-09T01:51:04.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2022-03-19T16:33:40.170</Modified>
+      <Modified>2022-04-09T01:51:04.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -82,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment %28Package%29\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-03-19T16:29:04.544</Modified>
+      <Modified>2022-04-09T01:51:05.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kenny\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll">
       <PackagePath>CourseEnrollment\Microsoft.ApplicationModel.Resources.Projection.dll</PackagePath>
@@ -102,31 +102,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.deps.json">
       <PackagePath>CourseEnrollment\CourseEnrollment.deps.json</PackagePath>
-      <Modified>2022-03-19T16:28:59.519</Modified>
+      <Modified>2022-04-09T01:51:04.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.runtimeconfig.dev.json">
       <PackagePath>CourseEnrollment\CourseEnrollment.runtimeconfig.dev.json</PackagePath>
-      <Modified>2022-03-19T16:28:59.523</Modified>
+      <Modified>2022-04-09T01:51:04.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>CourseEnrollment\App.xbf</PackagePath>
-      <Modified>2022-03-19T16:28:59.372</Modified>
+      <Modified>2022-04-09T01:51:04.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>CourseEnrollment\MainWindow.xbf</PackagePath>
-      <Modified>2022-03-19T16:33:40.170</Modified>
+      <Modified>2022-04-09T01:51:04.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>CourseEnrollment\CourseEnrollment.exe</PackagePath>
-      <Modified>2022-03-19T16:33:40.301</Modified>
+      <Modified>2022-04-09T01:51:04.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.runtimeconfig.json">
       <PackagePath>CourseEnrollment\CourseEnrollment.runtimeconfig.json</PackagePath>
-      <Modified>2022-03-19T16:28:59.522</Modified>
+      <Modified>2022-04-09T01:51:04.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VCC\2104\cstp2104\Class Code\CourseEnrollment\CourseEnrollment\bin\x86\Debug\net5.0-windows10.0.19041.0\CourseEnrollment.dll">
       <PackagePath>CourseEnrollment\CourseEnrollment.dll</PackagePath>
-      <Modified>2022-03-19T16:33:40.285</Modified>
+      <Modified>2022-04-09T01:51:04.211</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

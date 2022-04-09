@@ -9,7 +9,7 @@
 
 
     <Grid>
-        <SplitView x:Name="splitView" PaneBackground="{ThemeResource SystemControlBackgroundChromeMediumLowBrush}"
+        <SplitView x:ConnectionId='2' x:Name="splitView" PaneBackground="{ThemeResource SystemControlBackgroundChromeMediumLowBrush}"
            IsPaneOpen="True" OpenPaneLength="256" CompactPaneLength="48" DisplayMode="Inline">
             <SplitView.Pane>
                 <Grid >
@@ -20,8 +20,8 @@
                     </Grid.RowDefinitions>
                     
                     <StackPanel Grid.Row="0">
-                        <TextBlock Text="Student" x:Name="PaneHeader" Margin="12,12,0,0" FontSize="24" Style="{StaticResource BaseTextBlockStyle}"/>
-                        <TextBox x:Name="studentFilter" Margin="10, 12, 12, 0"  PlaceholderText="Search By Name or ID"/>
+                        <TextBlock x:ConnectionId='6' Text="Student" x:Name="PaneHeader" Margin="12,12,0,0" FontSize="24" Style="{StaticResource BaseTextBlockStyle}"/>
+                        <TextBox x:ConnectionId='7' x:Name="studentFilter" Margin="10, 12, 12, 0"  PlaceholderText="Search By Name or ID"/>
                     </StackPanel>
                     <ListView Grid.Row="1" HorizontalAlignment="Stretch" Margin="12, 15, 0, 0" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible">
                         <DataTemplate >
@@ -59,3 +59,4 @@
     </Grid>
 
 </Window>
+
